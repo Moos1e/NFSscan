@@ -1,0 +1,5 @@
+#!/bin/bash                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                            
+#make sure to change file name.                                                                                                                                                                                                              
+                                                                                                                                                                                                                                            
+for ip in $(cat <filename with NFS hostlist>)#change this; do showmount -e $ip; done 
